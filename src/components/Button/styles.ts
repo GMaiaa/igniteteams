@@ -2,7 +2,7 @@ import { TouchableOpacity } from "react-native";
 import styled, { css } from "styled-components/native";
 
 
-export type ButtonTypeStyleProps = 'PRIMARY'  | 'SECUNDARY'
+export type ButtonTypeStyleProps = 'PRIMARY'  | 'SECONDARY'
 
 type Props = {
     type: ButtonTypeStyleProps
